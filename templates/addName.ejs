@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Add Name</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Add Name</h1>
+    <form action="http://localhost:<%- port %>/processName" method="post">
+        <fieldset>
+            <label>Name: <input type="text" name="name" /></label>
+            <label>Country Code: <input type="text" name="country" value="US"></label>
+        </fieldset>
+
+
+        <br>
+        <input type="reset" />
+        <input type="submit" value="Add Name" />
+    </form>
+    <hr>
+    <a href="/">HOME</a>
+
+</body>
+
+</html>

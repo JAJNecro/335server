@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Review Results</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Review Results</h1>
+    <form action="http://localhost:<%- port %>/processResults" method="post">
+        <fieldset>
+
+            <label>Country: <input type="text" name="country" value="US"></label>
+            <br>
+
+        </fieldset>
+
+
+        <br>
+        <input type="reset" />
+        <input type="submit" value="Submit Request" />
+    </form>
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>
